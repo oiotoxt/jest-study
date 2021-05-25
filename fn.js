@@ -3,7 +3,7 @@ const fn = {
     return x + y;
   },
 
-  makeUser: (name, age) => ({ name, age, getnder: undefined }),
+  makeUser: (name, age) => ({ name, age, gender: undefined }),
 }
 
 module.exports = fn;
